@@ -1,0 +1,19 @@
+{
+  "name": "@cueaxle/core",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cueaxle/sdk": "workspace:*",
+    "@cueaxle/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@cueaxle/tsconfig": "workspace:*",
+    "bun-types": "latest",
+    "typescript": "^5.5.0"
+  }
+}

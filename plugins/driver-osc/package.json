@@ -1,0 +1,18 @@
+{
+  "name": "@cueaxle/driver-osc",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cueaxle/sdk": "workspace:*",
+    "@cueaxle/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@cueaxle/tsconfig": "workspace:*",
+    "typescript": "^5.5.0"
+  }
+}

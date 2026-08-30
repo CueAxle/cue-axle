@@ -1,0 +1,22 @@
+{
+  "name": "cueaxle",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CueAxle Monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "plugins/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0"
+  },
+  "packageManager": "bun@1.1.0"
+}

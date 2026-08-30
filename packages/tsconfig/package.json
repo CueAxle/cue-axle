@@ -1,0 +1,11 @@
+{
+  "name": "@cueaxle/tsconfig",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "base.json",
+    "bun.json",
+    "nextjs.json",
+    "react-library.json"
+  ]
+}
